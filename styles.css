@@ -1,29 +1,29 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Patrick Hand', cursive;
+  margin: 0;
+  padding: 0;
+  font-family: 'Patrick Hand', cursive;
+  color: #FFFFFF;
+}
+canvas {
+  display: block;
+}
+
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: (0,0,0,0.5);
+}
+
+.title h1{
+    color:#FFFFFF;
+  text-align: center;
+    font-size: 560%;
+}
+.title p{
     color: #FFFFFF;
-  }
-  canvas {
-    display: block;
-  }
-
-
-  .title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: (0,0,0,0.5);
-  }
-
-  .title h1{
-      color:#FFFFFF;
     text-align: center;
-      font-size: 560%;
-  }
-  .title p{
-      color: #FFFFFF;
-      text-align: center;
-      font-size: 360%;
-  }
+    font-size: 360%;
+}
