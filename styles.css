@@ -3,10 +3,41 @@ html, body {
   padding: 0;
   font-family: 'Patrick Hand', cursive;
   color: #FFFFFF;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
 }
 canvas {
   display: block;
+  z-index: -10;
 }
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  /* background-color: #ddd; */
+  color:            white;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  /* background-color: #ddd; */
+  color:            white;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  font-weight:      bold;
+  /* background-color: blue; */
+  color:            #fff;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  underline;
+  font-weight:      bold;
+  /* background-color: black; */
+  color: white;
+  }
 
 
 .title{
@@ -15,6 +46,7 @@ canvas {
   left: 50%;
   transform: translate(-50%, -50%);
   background: (0,0,0,0.5);
+  z-index: 10;
 }
 
 .title h1{
