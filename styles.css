@@ -16,10 +16,12 @@ html, body {
   }
 
   .title h1{
+      color:#FFFFFF;
     text-align: center;
       font-size: 560%;
   }
   .title p{
+      color: #FFFFFF;
       text-align: center;
       font-size: 360%;
   }
