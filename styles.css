@@ -1,61 +1,60 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Patrick Hand', cursive;
-  color: #FFFFFF;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 1;
 }
+
 canvas {
   display: block;
-  z-index: -10;
 }
-a:link    {
-  /* Applies to all unvisited links */
-  text-decoration:  none;
-  font-weight:      bold;
-  /* background-color: #ddd; */
-  color:            white;
-  } 
-a:visited {
-  /* Applies to all visited links */
-  text-decoration:  none;
-  font-weight:      bold;
-  /* background-color: #ddd; */
-  color:            white;
-  } 
-a:hover   {
-  /* Applies to links under the pointer */
-  text-decoration:  underline;
-  font-weight:      bold;
-  /* background-color: blue; */
-  color:            #fff;
-  } 
-a:active  {
-  /* Applies to activated links */
-  text-decoration:  underline;
-  font-weight:      bold;
-  /* background-color: black; */
-  color: white;
-  }
 
+.nav{
+  background: (0,0,0);
+  color: #333;
+}
+
+p{
+  margin: 0%;
+  padding: 0%;
+}
 
 .title{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: (0,0,0,0.5);
-  z-index: 10;
+  font-size:  200%;
+  margin-left: 2%;
+  float: left;
+}
+.p5Canvas{
+  margin: 0%;
+  /* margin-top: 8%;
+  margin-left: 6%; */
 }
 
-.title h1{
-    color:#FFFFFF;
-  text-align: center;
-    font-size: 560%;
+
+.next {
+  font-size:  200%;
+margin-left: 90%;
 }
-.title p{
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 360%;
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover 
+{
+   color:#00A0C6; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333;
+
+}
+
+a:active {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer; 
+
 }
